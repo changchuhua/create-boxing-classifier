@@ -23,8 +23,12 @@ Please contact the GitHub owner for access to any data not provided.
 
 ## Executive Summary
 > In this project, we aim to create a boxing move classifier as part of our milestones to create an interactive boxing trainer. <br/><br/>
-Through our investigations, we find that
+Through our investigations, we find that modelling based purely on keypoints does not give us a good result.<br/>
+We obtained our best results through feature engineering and utilizing a Support-Vector-Machine classifier (SVC).<br/>
+We also tried using Artificial Neural Networks, however we found that they did not perform as well as our SVC, possibly due to a lack of training data.<br/><br/>
+We will proceed to improve the performance of our models before moving on to other milestones.
 
 ## Conclusion and Recommendations
-> We find that
+> We find that a best classifier can be made from a Support-Vector-Machine model with a 'Radial Basis Function' kernel and a C value of 0.95.<br/>
+The data has to be feature engineered where we should normalize all datapoints over to the neck keypoint, and create scaled features of hand to shoulder distances.
 
